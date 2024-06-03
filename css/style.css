@@ -365,3 +365,69 @@ header nav ul li a {
     margin: 20px 10px;
     color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    #home,
+    #about,
+    #skills,
+    #experience,
+    #education,
+    #contact {
+        height: auto;
+    }
+
+    #home {
+        height: 100vh;
+        margin-top: 0;
+    }
+
+    #home h1 {
+        font-size: 30px;
+    }
+
+    #about {
+        padding: 0;
+    }
+
+    #about .container {
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    #education,
+    #contact,
+    #experience {
+        padding: 0;
+    }
+
+    .cards {
+        max-width: 100vw !important;
+    }
+
+    .card {
+        max-width: 400px !important;
+        margin: 20px !important;
+        height: auto !important;
+        height: fit-content !important;
+    }
+
+    #contact {
+        margin: 0;
+    }
+
+    #contact .container {
+        display: block;
+    }
+}
