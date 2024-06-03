@@ -1,4 +1,3 @@
-
 function scrollToElement(id) {
     const element = document.getElementById(id);
     if (element) {

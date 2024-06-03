@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 html {
     scroll-behavior: smooth;
 }
@@ -81,6 +83,7 @@ header nav ul li {
 
 header nav ul li a {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .icons {
